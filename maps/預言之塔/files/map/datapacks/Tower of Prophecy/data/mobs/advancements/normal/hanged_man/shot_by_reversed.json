@@ -1,0 +1,22 @@
+{
+  "rewards": {
+    "function": "mobs:normal/hanged_man/shot_by_reversed"
+  },
+  "criteria": {
+    "haha_fly_high": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"mobs.hanged_man\",\"mobs.reversed\"]}"
+          },
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
+          }
+        }
+      }
+    }
+  }
+}

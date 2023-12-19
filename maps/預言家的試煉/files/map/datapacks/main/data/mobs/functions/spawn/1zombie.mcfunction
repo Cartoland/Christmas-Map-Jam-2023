@@ -1,0 +1,3 @@
+summon zombie ~ ~1 ~ {Tags:["1zombie","enemy"],CustomNameVisible:1,CustomName:'[{"text":"","italic":false},{"text":"魔僵","color":"gray"}]',Health:5f,Attributes:[{Name:"generic.max_health",Base:5},{Name:"generic.follow_range",Base:1000},{Name:"generic.attack_damage",Base:2},{Name:"generic.knockback_resistance",Base:2.0}],HandItems:[{Count:1b,id:"stick",tag:{}},{}],HandDropChances:[0f,0f],ArmorItems:[{},{},{Count:1b,id:"leather_chestplate",tag:{}},{Count:1b,id:"leather_helmet",tag:{}}],ArmorDropChances:[0f,0f,0f,0f]}
+team join player_and_mobs @e[distance=..2,tag=1zombie]
+team join walls @e[distance=..2,tag=1zombie]

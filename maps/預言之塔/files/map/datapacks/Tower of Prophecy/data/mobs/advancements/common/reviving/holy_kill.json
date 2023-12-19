@@ -1,0 +1,44 @@
+{
+  "rewards": {
+    "function": "mobs:common/reviving/holy_kill"
+  },
+  "criteria": {
+    "killed_reviving_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"mobs.reviving\"]}"
+        },
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{holy_damage:1b}"
+                    }
+                  }
+                },
+                "entity": "this"
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "nbt": "{holy_damage:1b}"
+                    }
+                  }
+                },
+                "entity": "this"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

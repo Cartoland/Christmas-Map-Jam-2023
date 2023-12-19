@@ -1,0 +1,8 @@
+execute unless data storage system:tarot_tower floors_data[3].special run data modify storage system:tarot_tower floors_data[3].begin.type set from storage system:tarot_tower floors_data[3].mobs.id
+execute unless data storage system:tarot_tower floors_data[3].special run data modify storage system:tarot_tower floors_data[3].begin.reversed set from storage system:tarot_tower floors_data[3].reversed
+execute if data storage system:tarot_tower floors_data[3].special{reversed:1b} run data modify storage system:tarot_tower floors_data[3].begin.type set from storage system:tarot_tower floors_data[3].special.id
+execute if data storage system:tarot_tower floors_data[3].special{reversed:1b} run data modify storage system:tarot_tower floors_data[3].begin.reversed set from storage system:tarot_tower floors_data[3].special.reversed
+execute unless data storage system:tarot_tower floors_data[3].special run data modify storage system:tarot_tower floors_data[4].begin.normal2_type set from storage system:tarot_tower floors_data[3].mobs.id
+execute unless data storage system:tarot_tower floors_data[3].special run data modify storage system:tarot_tower floors_data[4].begin.normal2_reversed set from storage system:tarot_tower floors_data[3].reversed
+execute if data storage system:tarot_tower floors_data[3].special{reversed:0b} run data modify storage system:tarot_tower floors_data[4].begin.normal2_type set from storage system:tarot_tower floors_data[3].special.id
+execute if data storage system:tarot_tower floors_data[3].special{reversed:0b} run data modify storage system:tarot_tower floors_data[4].begin.normal2_reversed set from storage system:tarot_tower floors_data[3].special.reversed

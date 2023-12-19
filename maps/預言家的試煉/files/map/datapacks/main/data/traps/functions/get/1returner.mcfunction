@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{display:{Name:'{"text":"撤回陣法","color":"#F04816","bold":true}',Lore:['{"text":"把 1 格內所有已布置的陣法撤回","color":"#717073","bold":true}']},HideFlags:255,Unbreakable:1b,CustomModelData:1,Enchantments:[{}]} 1

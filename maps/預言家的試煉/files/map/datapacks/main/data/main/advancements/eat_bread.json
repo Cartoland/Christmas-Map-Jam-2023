@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "eat_bread": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+
+        }
+      }
+    },
+    "rewards": {
+      "function": "main:give_bread"
+    }
+}

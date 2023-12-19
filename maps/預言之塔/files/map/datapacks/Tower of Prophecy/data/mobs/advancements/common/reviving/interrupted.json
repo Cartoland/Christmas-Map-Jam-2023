@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "mobs:common/reviving/interrupted"
+  },
+  "criteria": {
+    "reviving_interrupted": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"mobs.reviving.hitbox\"]}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+summon minecraft:magma_cube ~ ~ ~ {Tags:["mobs","mobs.elite","mobs.sun","mobs.reversed"],Team:"mobs",NoAI:1b,Silent:1b,Size:7,Health:260f,Attributes:[{Name:"minecraft:generic.max_health",Base:260d},{Name:"minecraft:generic.armor",Base:8d}],active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:0b,show_particles:0b}]}

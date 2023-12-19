@@ -1,0 +1,2 @@
+give @p minecraft:bread{display:{Name:'{"text":"無限麵包","color":"gold","bold":true}',Lore:['{"text":"預言家團隊聯合時空的力量製作的麵包","color":"gray"}','{"text":"永遠也吃不完","color":"gray"}']},Enchantments:[{}]} 1 
+advancement revoke @s only main:eat_bread

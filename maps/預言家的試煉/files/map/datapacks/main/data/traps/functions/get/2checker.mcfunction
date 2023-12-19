@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{display:{Name:'{"text":"敵人預知","color":"dark_green","bold":true}',Lore:['{"text":"預知附近的敵人的屬性和特性","color":"#717073","bold":true}']},HideFlags:255,Unbreakable:1b,CustomModelData:2,Enchantments:[{}]} 1

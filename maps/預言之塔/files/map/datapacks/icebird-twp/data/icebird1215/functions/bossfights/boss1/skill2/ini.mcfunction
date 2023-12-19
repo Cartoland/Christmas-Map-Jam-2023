@@ -1,0 +1,10 @@
+kill @e[tag=b1s2]
+summon armor_stand -48 78 -0 {Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["b1s2","mobs"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;277744279,3295672,-1684731435,-1812530068],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ0NTJiZmNkYzNlYTE0ZjllNjEyYjFjOTZhYmVmOTdjMTBlOTZjNzExNmVhMmE0YjFhNWRmOGQ0YWExNzJmOSJ9fX0="}]}}}}]}
+summon armor_stand -48 78 -0 {Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["b1s2","mobs"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;277744279,3295672,-1684731435,-1812530068],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ0NTJiZmNkYzNlYTE0ZjllNjEyYjFjOTZhYmVmOTdjMTBlOTZjNzExNmVhMmE0YjFhNWRmOGQ0YWExNzJmOSJ9fX0="}]}}}}]}
+summon armor_stand -48 78 -0 {Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["b1s2","mobs"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;277744279,3295672,-1684731435,-1812530068],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ0NTJiZmNkYzNlYTE0ZjllNjEyYjFjOTZhYmVmOTdjMTBlOTZjNzExNmVhMmE0YjFhNWRmOGQ0YWExNzJmOSJ9fX0="}]}}}}]}
+summon armor_stand -48 78 -0 {Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["b1s2","mobs"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;277744279,3295672,-1684731435,-1812530068],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ0NTJiZmNkYzNlYTE0ZjllNjEyYjFjOTZhYmVmOTdjMTBlOTZjNzExNmVhMmE0YjFhNWRmOGQ0YWExNzJmOSJ9fX0="}]}}}}]}
+execute as @e[tag=b1s2] at @s run spreadplayers -48 0 7 10 under 77 false @s
+execute as @e[tag=b1s2] at @s run tp @s ~ 77 ~
+title @a title {"text": "§6!"}
+title @a subtitle {"text": "§f時空陷阱"}
+playsound entity.wither.ambient block @a ~ ~ ~ 1 1

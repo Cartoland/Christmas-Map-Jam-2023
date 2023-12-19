@@ -1,0 +1,2 @@
+execute as @e[tag=b1s3] on target if entity @s[tag=b1s3_target] run scoreboard players add @e[tag=b1s3] boss1 1
+execute as @e[tag=b1s3,scores={boss1=20}] on target run function icebird1215:bossfights/boss1/skill3/damage

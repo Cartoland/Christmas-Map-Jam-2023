@@ -1,0 +1,1 @@
+summon minecraft:vex ~ ~ ~ {Tags:["mobs","mobs.elite","mobs.star","mobs.reversed"],Team:"mobs",CustomName:'{"text":"Dinnerbone"}',Health:80f,Attributes:[{Name:"minecraft:generic.max_health",Base:80d},{Name:"minecraft:generic.attack_damage",Base:9d}],active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:0,show_particles:0b}]}

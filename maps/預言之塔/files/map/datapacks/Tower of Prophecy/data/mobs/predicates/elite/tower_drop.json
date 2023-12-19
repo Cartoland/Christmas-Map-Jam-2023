@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "predicate": {
+    "nbt": "{Tags:[\"mobs.high_tower\"]}",
+    "vehicle": {
+      "type": "minecraft:skeleton",
+      "nbt": "{Tags:[\"mobs.tower\"],Health:0f}"
+    }
+  },
+  "entity": "this"
+}

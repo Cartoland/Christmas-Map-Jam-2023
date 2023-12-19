@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "mobs:elite/sun/attacked"
+  },
+  "criteria": {
+    "here_comes_the_babies": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:magma_cube",
+          "nbt": "{Tags:[\"mobs.sun\"]}"
+        }
+      }
+    }
+  }
+}

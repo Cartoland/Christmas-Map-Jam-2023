@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "§a竹賢凍醪"
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "§d以天地為宅舍，以屋室為衣褲。"
+                },
+                {
+                  "text": "§d手持酒杯，借問為何凡物為何入我褲中?"
+                },
+                "",
+                {
+                  "text": "補充："
+                },
+                {
+                  "text": "§7§o可無限食用，食用後獲得隨機效果。"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{random_effect:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

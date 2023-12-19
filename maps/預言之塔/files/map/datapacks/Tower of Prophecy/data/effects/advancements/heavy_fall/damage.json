@@ -1,0 +1,25 @@
+{
+  "rewards": {
+    "function": "effects:heavy_fall/damage"
+  },
+  "criteria": {
+    "hurts_more_than_you_think": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"effect.heavy_fall\"]}"
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_fall"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

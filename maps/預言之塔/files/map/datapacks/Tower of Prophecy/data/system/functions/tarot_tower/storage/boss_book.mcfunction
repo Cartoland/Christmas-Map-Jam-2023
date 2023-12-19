@@ -1,0 +1,2 @@
+scoreboard players enable @a[tag=system.player] system.tarot_tower.trigger
+data modify storage system:tarot_tower Book set value {id:"minecraft:written_book",Count:1b,tag:{pages:['{"text":"\\n","extra":[{"text":"    「你將見證命運的終點」\\n\\n\\n    "},{"text":"我準備好了","color":"gold","clickEvent":{"action":"run_command","value":"/trigger system.tarot_tower.trigger set -2"}}]}'],author:"大預言家",title:"預言之書",tarot_tower:1b}}

@@ -1,0 +1,23 @@
+{
+  "rewards": {
+    "function": "mobs:normal/empress/shot_by_reversed"
+  },  
+  "criteria": {
+    "boom": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:skeleton",
+            "nbt": "{Tags:[\"mobs.empress\",\"mobs.reversed\"]}"
+          },
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
+          }
+        }
+      }
+    }
+  }
+}

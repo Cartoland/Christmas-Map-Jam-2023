@@ -1,0 +1,2 @@
+scoreboard players add @e[type=skeleton,tag=boss1_true,limit=1] boss1 1
+execute as @e[type=skeleton,tag=boss1_true,limit=1,scores={boss1=200}] at @s run function icebird1215:bossfights/boss1/skill1/ini3

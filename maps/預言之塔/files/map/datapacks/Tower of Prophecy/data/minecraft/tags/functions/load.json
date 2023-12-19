@@ -1,0 +1,7 @@
+{
+  "values": [
+    "system:load",
+    "mobs:load",
+    "effects:load"
+  ]
+}

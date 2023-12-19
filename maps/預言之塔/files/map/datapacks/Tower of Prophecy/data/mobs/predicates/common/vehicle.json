@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "predicate": {
+    "vehicle": {}
+  },
+  "entity": "this"
+}

@@ -1,0 +1,50 @@
+{
+  "rewards": {
+    "function": "mobs:common/reviving/normal_kill"
+  },
+  "criteria": {
+    "killed_reviving_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"mobs.reviving\"]}"
+        },
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "nbt": "{holy_damage:1b}"
+                      }
+                    }
+                  },
+                  "entity": "this"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "equipment": {
+                      "offhand": {
+                        "nbt": "{holy_damage:1b}"
+                      }
+                    }
+                  },
+                  "entity": "this"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

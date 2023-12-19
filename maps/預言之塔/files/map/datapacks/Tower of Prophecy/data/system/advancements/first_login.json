@@ -1,0 +1,26 @@
+{
+  "rewards": {
+    "function": "system:first_login"
+  },
+  "criteria": {
+    "hajimemashide": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "scores": {
+                "system.player_id": {
+                  "min": 0
+                }
+              },
+              "entity": "this"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

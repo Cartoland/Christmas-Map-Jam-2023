@@ -1,0 +1,20 @@
+{
+  "rewards": {
+    "function": "system:tarot_tower/took_book"
+  },
+  "criteria": {
+    "just_dont": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{tarot_tower:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

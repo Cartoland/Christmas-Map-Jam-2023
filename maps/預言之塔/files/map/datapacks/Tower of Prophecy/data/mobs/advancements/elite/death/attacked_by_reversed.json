@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "function": "mobs:elite/death/attacked_by_reversed"
+  },
+  "criteria": {
+    "oh_no_im_bleeding": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"mobs.death\",\"mobs.reversed\"]}"
+          }
+        }
+      }
+    }
+  }
+}

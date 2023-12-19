@@ -1,0 +1,18 @@
+{
+  "rewards": {
+    "function": "icebird1215:items/item4_used"
+  },
+  "criteria": {
+    "is_it_good_to_drink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ],
+          "nbt": "{random_effect:1b}"
+        }
+      }
+    }
+  }
+}

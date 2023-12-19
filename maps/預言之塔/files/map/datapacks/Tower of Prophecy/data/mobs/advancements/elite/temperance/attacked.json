@@ -1,0 +1,16 @@
+{
+  "rewards": {
+    "function": "mobs:elite/temperance/attacked"
+  },
+  "criteria": {
+    "you_are_so_weak": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"mobs.temperance\"]}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+summon minecraft:skeleton ~ ~ ~ {Tags:["mobs","mobs.elite","mobs.moon_baby"],Team:"mobs",Health:40f,Attributes:[{Name:"minecraft:generic.max_health",Base:40d},{Name:"minecraft:generic.attack_damage",Base:14d}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-2107747819,202130617,-2042002838,1755791938],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgyY2I2MTk0MDY4N2VjNmE3NDc4ZjE5ZjIwOTNjOTk2ZDkxMTU0ZjNkMTg3ZjA2NGIwZmVjMjY0MGViMTM3YiJ9fX0="}]}}}}],active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:0b,show_particles:0b}]}
+tag @s add mobs.cooldown
+scoreboard players set @s mobs.cooldown_timer 200

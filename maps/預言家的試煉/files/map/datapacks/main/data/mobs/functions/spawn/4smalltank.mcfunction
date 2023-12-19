@@ -1,0 +1,3 @@
+summon zombie ~ ~ ~ {Health:15f,IsBaby:1b,Tags:["4smalltank","enemy"],CustomName:'{"text":"高級小魔僵","color":"#D4A5AB","bold":true}',HandItems:[{id:"minecraft:stick",Count:1b,tag:{Enchantments:[{}]}},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:8421504}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:8421504}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:8421504}}},{id:"minecraft:leather_helmet",Count:1b,tag:{display:{color:8421504}}}],Attributes:[{Name:"generic.max_health",Base:15},{Name:"generic.follow_range",Base:1000},{Name:"generic.attack_damage",Base:4}]}
+team join player_and_mobs @e[distance=..2,tag=4smalltank]
+team join walls @e[distance=..2,tag=4smalltank]

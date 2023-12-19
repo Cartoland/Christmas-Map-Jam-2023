@@ -1,0 +1,9 @@
+{
+  "values": [
+    "system:tick_first",
+    "mobs:tick",
+    "effects:tick",
+    "icebird1215:tick",
+    "system:tick_last"
+  ]
+}
