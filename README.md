@@ -1,7 +1,9 @@
-# 聖誕 Map Jam - 2023
+<div align="center">
+  <h1>聖誕 Map Jam - 2023</h1>
+  <img src="https://github.com/Cartoland/Christmas-Map-Jam-2023/assets/116513257/df71f5a2-efbe-44f3-96ac-b3cd33a508e0">
+</div>
 
 ## 地圖列表
-
 - 大預言家
 - 預言家的試煉
 - 洛基的魔幻之旅
@@ -22,8 +24,8 @@
 > 你是一個預言家，你要透過你的預言(通靈)能力去預言裡面的玩家將會合成出什麼，抑或是不合成  
 
 指令表：  
-`/function system:start` - 強制開始  
-`/function system:end` - 強制結束  
+> `/function system:start` - 強制開始  
+> `/function system:end` - 強制結束  
 
 ### 預言家的試煉
 
