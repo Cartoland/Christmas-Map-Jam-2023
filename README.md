@@ -1,6 +1,6 @@
 <div align="center">
   <h1>聖誕 Map Jam - 2023</h1>
-  <img src="https://github.com/Cartoland/Christmas-Map-Jam-2023/assets/116513257/df71f5a2-efbe-44f3-96ac-b3cd33a508e0">
+  <img src="./logo.png">
 </div>
 
 ## 地圖列表

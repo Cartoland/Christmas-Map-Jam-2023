@@ -1,7 +1,7 @@
-# 預言之塔
-
 <div align="center">
-  >>> <a href="./files/預言之塔.zip">載點</a> <<<
+  <h1>預言之塔</h1>
+  <img src="./files/title.png" alt="title.png">
+  >>> <a href="https://drive.google.com/file/d/1Cx44B6U1gZKukGaYtnxnGxmYPMzzvDGI">載點</a> <<<
 </div>
 
 - 地圖類型：`爬塔RPG`  

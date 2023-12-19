@@ -1,7 +1,7 @@
-# 洛基的魔幻之旅
-
 <div align="center">
-  >>> <a href="./files/洛基的魔幻之旅.zip">載點</a> <<<
+  <h1>洛基的魔幻之旅</h1>
+  <img src="./files/title.png" alt="title.png">
+  >>> <a href="https://drive.google.com/file/d/121tCZBL55Q28ve_ydw8gpIqnfupcyDMz">載點</a> <<<
 </div>
 
 - 地圖類型：`互動`  

@@ -1,14 +1,14 @@
-# 預言家的試煉
-
 <div align="center">
-  >>> <a href="./files/預言家的試煉.zip">載點</a> <<<
+  <h1>預言家的試煉</h1>
+  <img src="./files/title.png" alt="title.png">
+  >>> <a href="https://drive.google.com/file/d/1V983mdhLiybQmboIkVY_OhmV_TWql0DJ">載點</a> <<<
 </div>
 
 - 地圖類型：`解謎`  
 - 支援MC版本：`1.20.2`  
 - 使用語言：`繁體中文`  
 - 人數兼容性：`單人限定`  
-- 地圖作者：`遊戲亡  #gdnb`  
+- 地圖作者：`遊戲亡 #gdnb`  
 
 地圖劇情：
 > 你是一個準預言家，今天是你最終考試的日子...  
