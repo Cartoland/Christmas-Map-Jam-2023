@@ -1,0 +1,2 @@
+scoreboard players operation @e[tag=select] input = @s input
+tellraw @s ["",{"text":"密碼設定為：","bold":true,"color":"blue"},{"score":{"name":"@e[tag=select]","objective":"input"},"bold":true,"color":"gold"}]
